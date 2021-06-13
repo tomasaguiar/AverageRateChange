@@ -3,11 +3,9 @@
 const userInput = require("prompt-sync")
 const prompt = userInput()
 
-let func = prompt("f(x)= ")
+let func = prompt("f(x)= ").replace('\^', '**')
 
-func.replace(/(\d+)\^(\d+)/, (_, p1, p2) => p1**p2)
-
-let x = prompt("Digite o primeiro valor do intervalo: ")
+let x = prompt("Digite o primeiro valor do intervalo: ") 
 
 var valueHandler = x
 
