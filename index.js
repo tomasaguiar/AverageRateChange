@@ -18,8 +18,8 @@ function app() {
     
     let fA = x
     
-        if (fA == Infinity, NaN) {
-            console.log("O extremo " + x + " não pertence ao domínio da função.")
+        if (fA == Infinity || NaN) {
+            console.log("O extremo " + fA + " não pertence ao domínio da função.")
             input()
             return;
         }
@@ -34,7 +34,7 @@ function app() {
         var averageChangeRate = (resultHandler - result) / (x - fA)
     }
     
-    if (x == Infinity, NaN) {
+    if (x == Infinity || NaN) {
         console.log("O extremo " + x + " não pertence ao domínio da função.")
         input()
         return;   
