@@ -2,6 +2,7 @@
 
 const userInput = require("prompt-sync")
 const prompt = userInput()
+const sqrt = Math.sqrt
 
 app()
 
