@@ -1,12 +1,11 @@
 # AverageChangeRate
 A program that calculates the average change rate of a function.
 
-
-# Requirements 
+# Documentation
+ - # Requirements 
 
 - NodeJS
 - NPM
-
-# Libraries:
+- # Libraries:
 
 - npm install prompt-sync
